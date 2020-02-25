@@ -1,7 +1,7 @@
 # springbootrestdemo
 Spring Boot Rest Demo application
 
-URLs
+URLs <br>
 http://localhost:8080/greeting
 http://localhost:8080/greeting?name=mahi
 
