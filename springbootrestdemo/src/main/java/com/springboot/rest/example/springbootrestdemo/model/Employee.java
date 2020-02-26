@@ -1,4 +1,4 @@
-package com.springboot.rest.example.springbootrestdemo;
+package com.springboot.rest.example.springbootrestdemo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
