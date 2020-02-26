@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class Greeting {
-	
+
 	@RequestMapping("/greeting")
 	public @ResponseBody String greeting(@RequestParam Optional<String> name) {
-		return "hello "+name.orElse("Not provided");
-		//http://localhost:8080/greeting?name=mahi
+		return "hello " + name.orElse("Not provided");
+		// http://localhost:8080/greeting?name=mahi
 	}
 
 }
